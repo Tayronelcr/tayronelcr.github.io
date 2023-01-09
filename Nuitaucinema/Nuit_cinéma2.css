@@ -1,0 +1,146 @@
+body{
+    background-color:rgb(176, 107, 169); 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .head {
+      background: radial-gradient(circle at center,rgb(255, 255, 255), rgb(255, 255, 255) );
+      color:rgb(176, 107, 169);
+      height: 170px;
+      margin: auto;
+      position: sticky;
+      width: 100%;
+      top:0;
+      text-align: center;
+      text-shadow: 5px;
+      text-decoration: none;
+      font-size: large;
+      font-weight: 600;
+      font-display: center;
+  
+  }
+  
+  .bio{
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    margin: 75px 50px;
+    max-width: 500px;
+    font-weight: lighter;
+    color: rgb(153, 203, 153);
+    text-shadow: 50px;
+    font-size: 80px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  
+  
+  
+  nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 10px;
+      width: auto;
+    }
+    
+    ul li a {
+      color: rgb(176, 107, 169);
+      letter-spacing: 0.1rem; 
+      text-align: center;
+      font-size: 30px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    }
+    
+    ul li img{display:inline;}
+    
+    ul li a:hover {
+      color: rgb(153, 203, 153);
+      
+     
+    }
+    
+    .menu li {
+      padding: 35px
+    }
+  
+    
+    .menu li a {
+      text-decoration: none;
+    }
+  
+    .about{
+      display: grid;
+    }
+    
+    .portrait{  
+      grid-row: 1/-1;
+      grid-column: 1/-1;
+      
+    }
+  
+    nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 10px;
+      width: auto;
+    }
+  
+  nav a{
+    font-size: 180%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+  }
+    
+    
+    .menu li {
+      padding: 35px
+    }
+    
+    .menu li a {
+      text-decoration: none;
+    }
+    
+    
+    
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-flow: row dense;
+      margin: auto;
+    }
+    
+    
+    
+    img {
+      width: 100%;
+      /* 666 */
+      display: block;
+    }
+    
+    .s {
+      grid-column: span 1;
+      grid-row: span 1;
+    }
+    
+    .m {
+      grid-column: span 2;
+    }
+    
+    .l {
+      grid-row: span 2;
+    }
+    
+    .gap.grid img {
+      object-fit: cover;
+      height: 100%;
+    }
+    
+    *,
+    ::before,
+    ::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
